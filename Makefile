@@ -1,11 +1,11 @@
 #Tennessee Bonner
 #tcb150030@utdallas.edu
-#Project 5
+#Project 6
 #CS3377.501
 #This is the makefile for the CDK display matrix that also can produce a backup file
 
 CXX = g++
-CXXFLAGS = -Wall -g 
+CXXFLAGS = -Wall -std=c++0x 
 CPPFLAGS = -I/scratch/perkins/include
 
 LDFLAGS = -L/scratch/perkins/lib
