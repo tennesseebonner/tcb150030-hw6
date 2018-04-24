@@ -13,9 +13,9 @@ LDLIBS = -lcdk -lcurses
 
 PROJECTNAME = tcb150030.Project6
 
-EXECFILE = cdkexample
+EXECFILE = project6
 
-OBJS = cdkexample.o
+OBJS = project6.o
 
 
 all: $(EXECFILE)
